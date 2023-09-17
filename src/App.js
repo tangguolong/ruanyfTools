@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import toolData from './data/tools.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>阮一峰的工具推荐收集</h1>
+      {
+        toolData.map((tool) => {
+          return (
+            <div>
+              <h1>{tool.name}</h1>
+              <p>{tool.description}</p>
+              <p>{tool.url}</p>
+            </div>
+          )
+        }
+        )
+      }
     </div>
   );
 }

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ruanyfTools/static/css/main.073c9b0a.css",
+    "main.js": "/ruanyfTools/static/js/main.9196afd5.js",
+    "static/js/787.dcdaf7e9.chunk.js": "/ruanyfTools/static/js/787.dcdaf7e9.chunk.js",
+    "static/media/logo.svg": "/ruanyfTools/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ruanyfTools/index.html",
+    "main.073c9b0a.css.map": "/ruanyfTools/static/css/main.073c9b0a.css.map",
+    "main.9196afd5.js.map": "/ruanyfTools/static/js/main.9196afd5.js.map",
+    "787.dcdaf7e9.chunk.js.map": "/ruanyfTools/static/js/787.dcdaf7e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9196afd5.js"
+  ]
+}
